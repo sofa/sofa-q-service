@@ -10,4 +10,4 @@ before_script:
 notifications:
   hipchat:
     rooms:
-      secure: fbPxchixUxvTJ6l3sHmtQERtb/SEk45YbdMcxkbIOGprJfecieUqspUuiWLyDxXq8vDAxw/D77CAZhbXYJlOPbDIp0TMYEi+1y/vhAOcapglemNORXVU/7grv0FKurmY+O82jsdd9nOcipoRudl75YU4GlBSt+yS6utaUzU/Zsg=
+      secure: BA2A/ACT6YQZ4b2uXnXNNm5eG37KyDg3iisctAtRUOukvANSZF650JKM9KVDl8vyfqYJSl9e/j+VV5bs++ymZZCv6py3pf6eh3R+O8HaE9qQDTz8fcmPl2zRVXPqQ67Mx1TJkNuzRfncX2/naRRM3KVT3Dtk1FhwUn18/hCe1fU=

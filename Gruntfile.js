@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
 
-        component_name: 'sofa.core',
+        component_name: 'sofa.qService',
         component_sass_name: grunt.file.readJSON('bower.json').name,
         build_dir: 'dist',
 

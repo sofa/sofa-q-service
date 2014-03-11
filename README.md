@@ -1,20 +1,21 @@
-# Sofa Core [![Build Status](https://travis-ci.org/sofa/sofa-core.png?branch=master)](https://travis-ci.org/sofa/sofa-core)
+# Sofa Q Service [![Build Status](https://travis-ci.org/sofa/sofa-q-service.png?branch=master)](https://travis-ci.org/sofa/sofa-q-service)
 
 > Sofa Web SDK Core Components
 
-This is the Sofa Core component. This component is actually more like a bundle,
-that gives you core functionalities on which other sofa components depend on.
+This is the Sofa Q Service component. This service is actually a part of
+the Angular `$q` service source to bring deferreds and flow control to
+sofa.
 
 ## Installation
 
 Via npm:
 
 ```sh
-$ npm install sofa-core
+$ npm install sofa-q-service
 ```
 
 Via Bower:
 
 ```sh
-$ bower install sofa-core
+$ bower install sofa-q-service
 ```

@@ -9,7 +9,7 @@ module.exports = function ( karma ) {
          * This is the list of file patterns to load into the browser during testing.
          */
         files: [
-            'src/sofa.js',
+            'node_modules/sofa-core/dist/sofa.core.js',
             'src/**/*.js',
             'node_modules/sofa-testing/mocks/sofa.config.mock.js',
             'test/**/*.spec.js'
@@ -20,8 +20,6 @@ module.exports = function ( karma ) {
             'karma-jasmine',
             'karma-firefox-launcher',
             'karma-chrome-launcher',
-            'karma-phantomjs-launcher',
-            'karma-coffee-preprocessor'
         ],
         preprocessors: {},
 
