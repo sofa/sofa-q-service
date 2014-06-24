@@ -1,24 +1,24 @@
 {
-  "name": "sofa-q-service",
-  "version": "0.1.2",
-  "homepage": "http://www.sofa.io",
-  "authors": [
-    "Pascal Precht <pascal@couchcommerce.com>"
-  ],
-  "description": "Sofa Web SDK core components.",
-  "main": "dist/sofa.core.js",
-  "devDependencies": {
-    "sofa-testing": "0.1.x"
-  },
-  "dependencies": {
-    "sofa-core": "0.4.x"
-  },
-  "keywords": [
-    "sofa",
-    "sofa.io",
-    "web",
-    "sdk",
-    "core"
-  ],
-  "license": "GPL"
+    "name": "sofa-q-service",
+    "version": "0.2.0",
+    "homepage": "http://www.sofa.io",
+    "authors": [
+        "Pascal Precht <pascal@couchcommerce.com>"
+    ],
+    "description": "Sofa Web SDK core components.",
+    "main": "dist/sofa.core.js",
+    "devDependencies": {
+        "sofa-testing": "0.1.x"
+    },
+    "dependencies": {
+        "sofa-core": "0.4.x"
+    },
+    "keywords": [
+        "sofa",
+        "sofa.io",
+        "web",
+        "sdk",
+        "core"
+    ],
+    "license": "GPL"
 }
