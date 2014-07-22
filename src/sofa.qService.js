@@ -306,11 +306,9 @@ sofa.define('sofa.QService', function () {
         function all(promises) {
             var deferred = defer(),
                 counter = 0,
-                /* global isArray: true */
-                results = isArray(promises) ? [] : {};
+                results = sofa.Util.isArray(promises) ? [] : {};
 
-            /* global forEach: true */
-            forEach(promises, function (promise, key) {
+            sofa.Util.forEach(promises, function (promise, key) {
                 counter++;
                 ref(promise).then(function (value) {
                     if (results.hasOwnProperty(key)) {

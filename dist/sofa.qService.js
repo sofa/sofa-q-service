@@ -1,5 +1,5 @@
 /**
- * sofa-q-service - v0.2.0 - 2014-06-24
+ * sofa-q-service - v0.2.0 - 2014-07-22
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors
@@ -316,11 +316,9 @@ sofa.define('sofa.QService', function () {
         function all(promises) {
             var deferred = defer(),
                 counter = 0,
-                /* global isArray: true */
-                results = isArray(promises) ? [] : {};
+                results = sofa.Util.isArray(promises) ? [] : {};
 
-            /* global forEach: true */
-            forEach(promises, function (promise, key) {
+            sofa.Util.forEach(promises, function (promise, key) {
                 counter++;
                 ref(promise).then(function (value) {
                     if (results.hasOwnProperty(key)) {
