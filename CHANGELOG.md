@@ -1,3 +1,12 @@
+<a name="0.2.1"></a>
+### 0.2.1 (2014-07-22)
+
+
+#### Bug Fixes
+
+* **all:** make all() method actually work ([e226d31a](https://github.com/sofa/sofa-q-service/commit/e226d31a91b507e70d39c7be766dc9eb51d90eb3))
+
+
 <a name="0.2.0"></a>
 ## 0.2.0 (2014-06-24)
 
