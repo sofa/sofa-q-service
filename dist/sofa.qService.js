@@ -1,5 +1,5 @@
 /**
- * sofa-q-service - v0.2.1 - 2014-07-22
+ * sofa-q-service - v0.3.0 - 2014-08-05
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors
@@ -9,7 +9,15 @@
 ;(function (sofa, undefined) {
 
 'use strict';
-
+/**
+ * @sofadoc class
+ * @name sofa.QService
+ *
+ * @package sofa-q-service
+ * @distFile dist/sofa.qService.js
+ *
+ * @description
+ */
 sofa.define('sofa.QService', function () {
     /**
      * Constructs a promise manager.
@@ -22,9 +30,10 @@ sofa.define('sofa.QService', function () {
     function qFactory(nextTick, exceptionHandler) {
 
         /**
-        * @ngdoc
-        * @name ng.$q#defer
-        * @methodOf ng.$q
+        * @sofadoc method
+        * @name sofa.QService#defer
+        * @memberof sofa.QService
+        *
         * @description
         * Creates a `Deferred` object which represents a task which will finish in the future.
         *
@@ -175,9 +184,9 @@ sofa.define('sofa.QService', function () {
 
 
         /**
-        * @ngdoc
-        * @name ng.$q#reject
-        * @methodOf ng.$q
+        * @sofadoc method
+        * @name sofa.QService#reject
+        * @memberof sofa.QService
         * @description
         * Creates a promise that is resolved as rejected with the specified `reason`. This api should be
         * used to forward rejection in a chain of promises. If you are dealing with the last promise in
@@ -223,9 +232,9 @@ sofa.define('sofa.QService', function () {
 
 
         /**
-        * @ngdoc
-        * @name ng.$q#when
-        * @methodOf ng.$q
+        * @sofadoc method
+        * @name sofa.QService#when
+        * @memberof sofa.QService
         * @description
         * Wraps an object that might be a value or a (3rd party) then-able promise into a $q promise.
         * This is useful when you are dealing with an object that might or might not be a promise, or if
@@ -300,9 +309,9 @@ sofa.define('sofa.QService', function () {
 
 
         /**
-        * @ngdoc
-        * @name ng.$q#all
-        * @methodOf ng.$q
+        * @sofadoc method
+        * @name sofa.QService#all
+        * @memberof sofa.QService
         * @description
         * Combines multiple promises into a single promise that is resolved when all of the input
         * promises are resolved.
